@@ -1,0 +1,15 @@
+{
+	"name": "retaildatapipline",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b7aa2eae-960b-4815-825b-2b30c70c3b83",
+		"tenantId": "f5ea6656-3ec3-414c-b732-c92821aad0f9"
+	}
+}

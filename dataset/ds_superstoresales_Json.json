@@ -1,0 +1,19 @@
+{
+	"name": "ds_superstoresales_Json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_blob_retaildatasource",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "destination"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
